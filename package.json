@@ -1,0 +1,29 @@
+{
+  "name": "senzu",
+  "version": "1.0.0",
+  "description": "Senzu, convenient CLI options parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/log4b0at/senzu.git"
+  },
+  "keywords": [
+    "cli",
+    "options",
+    "parser",
+    "parsing",
+    "command",
+    "line",
+    "arguments",
+    "parameters"
+  ],
+  "author": "log4b0at",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/log4b0at/senzu/issues"
+  },
+  "homepage": "https://github.com/log4b0at/senzu#readme"
+}
