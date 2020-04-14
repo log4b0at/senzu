@@ -6,8 +6,9 @@ Senzu is lightweight tool without dependency for CLI options parsing. Options ar
 **Senzu is a parser, not a checker**, for greater flexibility it is **your responsibility to check** the input of the user.
 
 ## Examples
-
-<img style="float:right;padding:20px;" width="200" src="./illustration.png"/>
+<table width="100%">
+<tr>
+<td>
 
 ```bash
 cmd
@@ -18,7 +19,12 @@ cmd -O2 path/to/src
 cmd --includes ../inc0 ../inc1 -- path/to/src
 cmd -I../inc0 -I ../inc2 path/to/src -o a.exe
 ```
-
+</td>
+<td width="200"> 
+<img width="200" src="https://github.com/log4b0at/senzu/raw/master/illustration.png"/>
+</td>
+</tr>
+</table>
 Configuration for this example:
 
 ```javascript
